@@ -21,7 +21,7 @@ fg.config(function ($provide) {
   $provide.provider('fgConfig', function () {
 
     var config = {
-      enableDebugInfo: true,
+      enableDebugInfo: false,
       validation: {
         messages: {},
         patterns: {}
