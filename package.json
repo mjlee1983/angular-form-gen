@@ -16,10 +16,13 @@
   ],
   "author": "(null) McNull",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-ng-annotate": "^1.1.0"
+  },
   "devDependencies": {
     "autoprefixer": "~2.2.0",
-    "gulp": "~3.8.7",
+    "grunt-ng-annotate": "^1.0.1",
+    "gulp": "^3.9.0",
     "gulp-clean": "~0.3.1",
     "gulp-concat": "~2.3.4",
     "gulp-if": "^1.2.5",
